@@ -1,0 +1,1897 @@
+
+=== PAGE 1 ===
+  
+TRIBUNAL DE CONTAS DA UNIÃO 
+  
+Auditoria de Redes de Atenção à Saúde 
+  
+Avaliação das Unidades Básicas de Saúde no contexto das RAS  
+e do MACC 
+  
+Questionário para as Unidades de Atenção Primária (UAPs) 
+  
+Todas as perguntas deste questionário são de preenchimento obrigatório. 
+  
+Ao enviar este formulário, seus dados pessoais (nome, e 
+- 
+mail etc.) não são coletados  
+automaticamente, exceto quando informados voluntariamente. 
+  
+Sumário 
+  
+Seção 1  
+— 
+  
+IDENTIFICAÇÃO 
+   
+(Q1 
+– 
+Q6) 
+  
+Seção 2  
+— 
+  
+TERRITORIALIZAÇÃO E CONHECIMENTO DA POPULAÇÃO 
+   
+(Q7 
+– 
+Q26) 
+  
+Seção 3  
+— 
+  
+CADASTRO E IDENTIFICAÇÃO DE SUBPOPULAÇÕES 
+   
+(Q27 
+– 
+Q37) 
+  
+Seção 4  
+— 
+  
+ACESSO DE PRIMEIRO CONTATO 
+   
+(Q38 
+– 
+Q48) 
+  
+Seção 5  
+— 
+  
+ESTRATIFICAÇÃO DE RISCO 
+   
+(Q49 
+– 
+Q64) 
+  
+Seção 6  
+— 
+  
+COORDENAÇÃO DO CUIDADO E INTEGRAÇÃO DA REDE 
+   
+(Q65 
+– 
+Q74) 
+  
+Seção 7  
+— 
+  
+ATENÇÃO ÀS CONDIÇÕES CRÔNICAS 
+   
+(Q86 
+– 
+Q95) 
+  
+Seção 8  
+— 
+  
+REDE DE ATENÇÃO MATERNO 
+- 
+INFANTIL 
+   
+(Q96 
+– 
+Q119) 
+  
+Seção 9  
+— 
+  
+GOVERNANÇA, APOIO INSTITUCIONAL E MONITORAMENTO PELO NÍVEL  
+CENTRAL 
+   
+(Q120 
+– 
+Q143) 
+  
+Seção 10  
+— 
+  
+AVALIAÇÃO GERAL 
+   
+(Q144 
+– 
+Q158) 
+  
+SEÇÃO 1 
+  
+IDENTIFICAÇÃO 
+  
+1.   
+Nome da unidade: 
+  
+  
+  
+2.   
+Área Programática 
+  
+  
+  
+3.   
+CNES: 
+  
+
+=== PAGE 2 ===
+  
+  
+  
+4.   
+Telefone para contato: 
+  
+  
+  
+5.   
+Respondente: 
+  
+  
+  
+6.   
+Função: 
+  
+  
+  
+SEÇÃO 2 
+  
+TERRITORIALIZAÇÃO E CONHECIMENTO  
+DA POPULAÇÃO 
+  
+7.   
+A unidade possui território de abrangência formalmente definido? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+8.   
+A unidade possui mapa atualizado de seu território e respectivas microáreas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+9.   
+Qual o número estimado da população adscrita à unidade? 
+  
+  
+  
+10.   
+A unidade dispõe de diagnóstico situacional atualizado do território? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+11.   
+O diagnóstico situacional contempla: 
+  
+  
+  
+12.   
+Com que frequência a unidade realiza a análise das necessidades de saúde do território? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Trimestralmente 
+  
+  
+☐ 
+  
+Semestralmente 
+  
+  
+☐ 
+  
+Anualmente 
+  
+  
+☐ 
+  
+Outra 
+  
+13.   
+Quais são os principais problemas de saúde identificados no território? 
+  
+  
+  
+14.   
+Com que frequência a unidade identifica áreas ou grupos populacionais de maior  
+vulnerabilidade? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Trimestralmente 
+  
+  
+☐ 
+  
+Semestralmente 
+  
+  
+☐ 
+  
+Anualmente 
+  
+  
+☐ 
+  
+Outra 
+  
+
+=== PAGE 3 ===
+  
+15.   
+Quais são as principais dificuldades para manter o cadastro territorial atualizado? 
+  
+  
+  
+16.   
+Como as informações do território são utilizadas no planejamento das ações da  
+unidade? 
+  
+  
+  
+17.   
+A unidade utiliza informações territoriais para definir prioridades assistenciais? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Ocasionalmente 
+  
+18.   
+A unidade possui cobertura por Agentes Comunitários de Saúde (ACS) em todo o  
+território adscrito? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+19.   
+Todas as equipes possuem ACS vinculados? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+20.   
+Existe microárea formalmente definida para cada ACS? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+21.   
+Quais dificuldades os ACS enfrentam para realizar visitas domiciliares? 
+  
+  
+  
+22.   
+Os ACS utilizam dispositivos eletrônicos para o cadastro territorial? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+23.   
+Os ACS recebem capacitação para a utilização dos sistemas de informação? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+24.   
+A unidade utiliza os dados coletados pelos ACS para planejamento das ações de saúde? 
+  
+☐ 
+  
+Sempre 
+  
+  
+☐ 
+  
+Frequentemente 
+  
+  
+☐ 
+  
+Raramente 
+  
+  
+☐ 
+  
+Nunca 
+  
+25.   
+De que forma as informações produzidas pelos ACS são utilizadas no planejamento das  
+ações da unidade? 
+  
+  
+  
+26.   
+Os ACS participam das reuniões de equipe? 
+  
+☐ 
+  
+Sempre 
+  
+  
+☐ 
+  
+Frequentemente 
+  
+  
+☐ 
+  
+Ocasionalmente 
+  
+  
+☐ 
+  
+Nunca 
+  
+SEÇÃO 3 
+  
+
+=== PAGE 4 ===
+  
+CADASTRO E IDENTIFICAÇÃO DE  
+SUBPOPULAÇÕES 
+  
+27.   
+Qual o número de usuários cadastrados na unidade? 
+  
+  
+  
+28.   
+Qual o número de usuários com cadastro ativo na unidade? 
+  
+  
+  
+29.   
+Com que frequência o cadastro do usuário é atualizado? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+A cada visita 
+  
+  
+☐ 
+  
+Quinzenalmente 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Semestralmente 
+  
+  
+☐ 
+  
+Anualmente 
+  
+  
+☐ 
+  
+Outra 
+  
+30.   
+Como ocorre essa atualização cadastral? 
+  
+  
+  
+31.   
+A unidade monitora a proporção de cadastros desatualizados? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+32.   
+Como esse monitoramento é feito? 
+  
+  
+  
+33.   
+A unidade identifica subpopulações prioritárias no território? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+34.   
+A unidade mantém cadastro nominal atualizado dos seguintes grupos: 
+  
+  
+  
+35.   
+A unidade utiliza o cadastro para busca ativa de usuários? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+36.   
+Como essa busca é feita? 
+  
+  
+  
+37.   
+Como são identificadas e atualizadas as subpopulações prioritárias? 
+  
+  
+  
+SEÇÃO 4 
+  
+ACESSO DE PRIMEIRO CONTATO 
+  
+38.   
+A unidade atua como principal porta de entrada dos usuários para a rede de saúde? 
+  
+
+=== PAGE 5 ===
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+39.   
+Detalhe: 
+  
+  
+  
+40.   
+Existe acolhimento da demanda espontânea durante todo o horário de funcionamento? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+41.   
+Descreva. 
+  
+  
+  
+42.   
+O usuário pode agendar consultas sem necessidade de comparecimento prévio à  
+unidade? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+43.   
+Descreva. 
+  
+  
+  
+44.   
+Existem critérios formalizados para classificação e priorização dos atendimentos? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+45.   
+Descreva. 
+  
+  
+  
+46.   
+Qual o tempo médio (em dias) para consulta médica programada? 
+  
+  
+  
+47.   
+Qual o tempo médio (em dias) para consulta de enfermagem programada? 
+  
+  
+  
+48.   
+Quais são as principais dificuldades relacionadas ao acesso dos usuários? 
+  
+  
+  
+SEÇÃO 5 
+  
+ESTRATIFICAÇÃO DE RISCO 
+  
+49.   
+A unidade realiza estratificação de risco para pessoas com condições crônicas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+50.   
+Descreva. 
+  
+  
+  
+51.   
+A estratificação segue protocolo institucional formalizado? 
+  
+
+=== PAGE 6 ===
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+52.   
+Descreva. 
+  
+  
+  
+53.   
+A estratificação é registrada em sistema informatizado? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+54.   
+Descreva. 
+  
+  
+  
+55.   
+Quais condições são submetidas à estratificação de risco? 
+  
+  
+  
+56.   
+A unidade consegue informar o quantitativo de usuários por estrato de risco? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+57.   
+A frequência de acompanhamento varia conforme o estrato de risco? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+58.   
+Há plano de cuidado diferenciado para usuários de alto risco? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+59.   
+Descreva. 
+  
+  
+  
+60.   
+Os usuários de alto risco recebem monitoramento específico? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+61.   
+Descreva. 
+  
+  
+  
+62.   
+Com que frequência estratificação é revisada? 
+  
+☐ 
+  
+Semestralmente 
+  
+  
+☐ 
+  
+Anualmente 
+  
+  
+☐ 
+  
+Conforme necessidade clínica 
+  
+  
+☐ 
+  
+Não há revisão  
+periódica 
+  
+  
+☐ 
+  
+Outra 
+  
+63.   
+Descreva. 
+  
+  
+  
+64.   
+Descreva como a estratificação é utilizada no planejamento assistencial. 
+  
+  
+  
+SEÇÃO 6 
+  
+
+=== PAGE 7 ===
+  
+COORDENAÇÃO DO CUIDADO E  
+INTEGRAÇÃO DA REDE 
+  
+65.   
+A unidade acompanha os usuários encaminhados para outros pontos da rede? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+66.   
+Descreva. 
+  
+  
+  
+67.   
+Existe fluxo formal de referência e contrarreferência? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+68.   
+Descreva. 
+  
+  
+  
+69.   
+A unidade recebe regularmente informações dos serviços especializados sobre os  
+usuários encaminhados? 
+  
+☐ 
+  
+Sempre 
+  
+  
+☐ 
+  
+Frequentemente 
+  
+  
+☐ 
+  
+Ocasionalmente 
+  
+  
+☐ 
+  
+Nunca 
+  
+70.   
+Como essa comunicação é feita? 
+  
+  
+  
+71.   
+Como é realizado o acompanhamento dos usuários encaminhados para outros serviços? 
+  
+  
+  
+72.   
+A equipe realiza discussão periódica de casos complexos? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+73.   
+Existem profissionais responsáveis pelo monitoramento de usuários de maior risco? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+74.   
+Descreva. 
+  
+  
+  
+SEÇÃO 7 
+  
+ATENÇÃO ÀS CONDIÇÕES CRÔNICAS 
+  
+86.   
+A unidade possui protocolos clínicos formalizados para condições crônicas prioritárias? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+87.   
+Descreva. 
+  
+
+=== PAGE 8 ===
+  
+  
+  
+88.   
+Os usuários com maior risco clínico recebem acompanhamento diferenciado? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+89.   
+Descreva. 
+  
+  
+  
+90.   
+A unidade desenvolve ações de autocuidado apoiado? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+91.   
+Descreva. 
+  
+  
+  
+92.   
+Há monitoramento sistemático dos pacientes com condições crônicas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+93.   
+Descreva. 
+  
+  
+  
+94.   
+Descreva as principais estratégias adotadas para gestão das condições crônicas. 
+  
+  
+  
+95.   
+Existe acompanhamento programado para pessoas com: 
+  
+  
+  
+SEÇÃO 8 
+  
+REDE DE ATENÇÃO MATERNO 
+- 
+INFANTIL 
+  
+96.   
+Com que frequência os ACS realizam busca ativa de gestantes? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+Diariamente 
+  
+  
+☐ 
+  
+Semanalmente 
+  
+  
+☐ 
+  
+Quinzenalmente 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Outra 
+  
+97.   
+Como os ACS contribuem para a identificação precoce das gestantes no território? 
+  
+  
+  
+98.   
+Todas as gestantes cadastradas estão vinculadas a uma maternidade de referência? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+99.   
+A unidade mantém lista nominal atualizada das gestantes acompanhadas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+100.   
+Existe monitoramento das faltas às consultas de pré 
+- 
+natal? 
+  
+
+=== PAGE 9 ===
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+101.   
+Há busca ativa de gestantes faltosas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+102.   
+Com que frequência os ACS realizam busca ativa de gestantes com pré 
+- 
+natal  
+interrompido? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+Diariamente 
+  
+  
+☐ 
+  
+Semanalmente 
+  
+  
+☐ 
+  
+Quinzenalmente 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Outra 
+  
+103.   
+Como ocorre o acompanhamento de gestantes faltosas ou que abandonam o pré 
+- 
+natal? 
+  
+  
+  
+104.   
+A unidade acompanha a realização dos exames preconizados para o pré 
+- 
+natal? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+105.   
+Existe processo de estratificação de risco das gestantes cadastradas no território? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+106.   
+Descreva. 
+  
+  
+  
+107.   
+Os ACS participam da identificação de gestantes de risco? 
+  
+☐ 
+  
+Sempre 
+  
+  
+☐ 
+  
+Frequentemente 
+  
+  
+☐ 
+  
+Ocasionalmente 
+  
+  
+☐ 
+  
+Nunca 
+  
+108.   
+Os ACS recebem capacitação sobre estratificação de riscos? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+109.   
+Existe fluxo formal para encaminhamento de gestantes de alto risco? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+110.   
+Há retorno de informações da maternidade para a unidade após o parto? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+111.   
+A unidade acompanha a puérpera e o recém 
+- 
+nascido após a alta hospitalar? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+112.   
+Como ocorre o acompanhamento de recém 
+- 
+nascidos e crianças de risco no território? 
+  
+  
+  
+113.   
+Com que frequência os ACS realizam busca ativa de crianças faltosas às consultas de  
+puericultura? 
+  
+☐ 
+  
+Nunca 
+  
+  
+☐ 
+  
+Diariamente 
+  
+  
+☐ 
+  
+Semanalmente 
+  
+  
+☐ 
+  
+Quinzenalmente 
+  
+  
+☐ 
+  
+Mensalmente 
+  
+  
+☐ 
+  
+Outra 
+  
+
+=== PAGE 10 ===
+  
+114.   
+Descreva. 
+  
+  
+  
+115.   
+Como ocorre a comunicação entre a unidade e os demais serviços da Rede Materno 
+- 
+Infantil? 
+  
+  
+  
+116.   
+Os ACS recebem capacitação periódica para atuação na saúde materno 
+- 
+infantil? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+117.   
+Descreva. 
+  
+  
+  
+118.   
+Quais melhorias poderiam fortalecer a atuação dos ACS na coordenação do cuidado  
+materno 
+- 
+infantil? 
+  
+  
+  
+119.   
+Qual o percentual estimado do território adscrito à UBS coberto por Agentes  
+Comunitários de Saúde (ACS)? 
+  
+☐ 
+  
+0% a 30% 
+  
+  
+☐ 
+  
+31% a 50% 
+      
+☐ 
+  
+51% a 60% 
+  
+  
+☐ 
+  
+61% a 70% 
+  
+  
+☐ 
+  
+71% a 80% 
+      
+☐ 
+  
+81% a  
+100% 
+  
+SEÇÃO 9 
+  
+GOVERNANÇA, APOIO INSTITUCIONAL E  
+MONITORAMENTO PELO NÍVEL CENTRAL 
+  
+120.   
+O nível central estabelece metas assistenciais para a unidade? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+121.   
+Descreva. 
+  
+  
+  
+122.   
+As metas são formalmente pactuadas com a equipe local? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+123.   
+Descreva. 
+  
+  
+  
+124.   
+O cumprimento das metas é monitorado periodicamente? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+125.   
+A unidade recebe devolutiva sobre o cumprimento das metas? 
+  
+
+=== PAGE 11 ===
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+126.   
+Como ocorre a devolutiva dos resultados para a equipe da unidade? 
+  
+  
+  
+127.   
+O nível central realiza reuniões periódicas para análise de resultados com a equipe da  
+unidade? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+128.   
+Descreva. 
+  
+  
+  
+129.   
+A unidade recebe regularmente informações sobre seu desempenho assistencial? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+130.   
+A unidade recebe apoio institucional para melhoria dos indicadores? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+131.   
+Descreva. 
+  
+  
+  
+132.   
+O nível central utiliza os resultados dos indicadores para redefinir prioridades e apoiar a  
+organização da assistência? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+  
+☐ 
+  
+Às vezes 
+  
+133.   
+Descreva. 
+  
+  
+  
+134.   
+Existe painel de indicadores disponibilizado à unidade? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+135.   
+Quais indicadores são mais frequentemente acompanhados pelo nível central? 
+  
+  
+  
+136.   
+O nível central apoia a implementação de protocolos clínicos? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+137.   
+Descreva. 
+  
+  
+  
+138.   
+O nível central apoia a estratificação de risco e a gestão de casos complexos? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+139.   
+Descreva. 
+  
+  
+  
+
+=== PAGE 12 ===
+  
+140.   
+O nível central promove ações de educação permanente para as equipes? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+141.   
+Que tipos de capacitação ou educação permanente são promovidos para a equipe? 
+  
+  
+  
+142.   
+Quais formas de apoio institucional são oferecidas pelo nível central? 
+  
+  
+  
+143.   
+Na percepção da equipe, quais aspectos do apoio do nível central poderiam ser  
+aprimorados? 
+  
+  
+  
+  
+  
+  
+  
+SEÇÃO 10 
+  
+AVALIAÇÃO GERAL 
+  
+144.   
+Quais são as principais fortalezas da unidade na coordenação do cuidado da população  
+adscrita? 
+  
+  
+  
+145.   
+Quais são as principais dificuldades para atuação da unidade como coordenadora da  
+Rede de Atenção à Saúde? 
+  
+  
+  
+146.   
+Quais melhorias a equipe considera prioritárias para aprimorar o funcionamento da  
+rede? 
+  
+  
+  
+147.   
+Avalie na escala de 1 a 5, sendo 1 a pior nota e 5 a melhor nota, considerando critérios  
+de tempo adequado para atendimento de pacientes, em relação a consultas com médicos  
+especialistas. 
+  
+☐ 
+  
+1 
+  
+  
+☐ 
+  
+2 
+  
+  
+☐ 
+  
+3 
+  
+  
+☐ 
+  
+4 
+  
+  
+☐ 
+  
+5 
+  
+148.   
+Esclareça sua nota. 
+  
+  
+  
+
+=== PAGE 13 ===
+  
+149.   
+Avalie na escala de 1 a 5, sendo 1 a pior nota e 5 a melhor nota, considerando critérios  
+de tempo adequado para atendimento de pacientes, em relação a realização de exames  
+médicos. 
+  
+☐ 
+  
+1 
+  
+  
+☐ 
+  
+2 
+  
+  
+☐ 
+  
+3 
+  
+  
+☐ 
+  
+4 
+  
+  
+☐ 
+  
+5 
+  
+150.   
+Esclareça sua nota. 
+  
+  
+  
+151.   
+Avalie na escala de 1 a 5, sendo 1 a pior nota e 5 a melhor nota, considerando critérios  
+de prestação adequada do serviço de saúde, em relação a recursos humanos da unidade. 
+  
+☐ 
+  
+1 
+  
+  
+☐ 
+  
+2 
+  
+  
+☐ 
+  
+3 
+  
+  
+☐ 
+  
+4 
+  
+  
+☐ 
+  
+5 
+  
+152.   
+Esclareça a resposta. 
+  
+  
+  
+153.   
+Avalie na escala de 1 a 5, sendo 1 a pior nota e 5 a melhor nota, considerando critérios  
+de prestação adequada do serviço de saúde, em relação a estrutura, materiais e  
+equipamentos da unidade. 
+  
+☐ 
+  
+1 
+  
+  
+☐ 
+  
+2 
+  
+  
+☐ 
+  
+3 
+  
+  
+☐ 
+  
+4 
+  
+  
+☐ 
+  
+5 
+  
+154.   
+Esclareça a resposta. 
+  
+  
+  
+155.   
+A UBS possui equipes de saúde da família incompletas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+156.   
+Durante o ano corrente, foi comum haver áreas sem equipes completas? 
+  
+☐ 
+  
+Sim 
+  
+  
+☐ 
+  
+Não 
+  
+157.   
+Esclareça a resposta anterior. 
+  
+  
+  
+158.   
+Sobre a manutenção de equipes de ESF completas, quais são os desafios enfrentados?  
+Quais os profissionais de maior carência na unidade? 
+  
+  
+  
+  

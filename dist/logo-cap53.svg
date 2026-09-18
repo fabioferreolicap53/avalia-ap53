@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="tg" x1="52" y1="6" x2="155" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <clipPath id="c">
+      <circle cx="24" cy="24" r="22"/>
+    </clipPath>
+  </defs>
+
+  <!-- Anel externo -->
+  <circle cx="24" cy="24" r="23" fill="none" stroke="url(#ring)" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- Fundo circular -->
+  <circle cx="24" cy="24" r="21" fill="url(#bg)"/>
+
+  <!-- Cruz branca arredondada -->
+  <rect x="20.5" y="11" width="7" height="26" rx="2" fill="white"/>
+  <rect x="11" y="20.5" width="26" height="7" rx="2" fill="white"/>
+
+  <!-- Brilho -->
+  <ellipse cx="18" cy="14" rx="9" ry="6" fill="white" opacity="0.06"/>
+
+  <!-- Texto "CAP" -->
+  <text x="54" y="19" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" fill="url(#tg)" letter-spacing="1">CAP</text>
+
+  <!-- Texto "5.3" -->
+  <text x="105" y="19" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="17" font-weight="300" fill="#93c5fd" letter-spacing="0.5">5.3</text>
+
+  <!-- Linha fina -->
+  <line x1="54" y1="24" x2="148" y2="24" stroke="#3b82f6" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Subtítulo -->
+  <text x="54" y="35" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="7.5" fill="#94a3b8" letter-spacing="2.5" font-weight="500">ATENÇÃO PRIMÁRIA</text>
+</svg>
