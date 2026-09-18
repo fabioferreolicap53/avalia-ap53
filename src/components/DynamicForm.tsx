@@ -15,7 +15,7 @@
 
 import { useForm, type FieldValues } from 'react-hook-form';
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, AlertCircle, LayoutGrid, Download, Info, Trash2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, AlertCircle, Download, Info, Trash2 } from 'lucide-react';
 import type { FormSchema, FormQuestion, FormSection, FormData } from '../types/form';
 
 /* ── Props ───────────────────────────────────────────────────── */
@@ -400,28 +400,32 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
   );
 
   /**
-   * Mapa global de numeração sequencial.
-   * Perguntas condicionais recebem número inteiro (ex.: 44, 45, 46...)
-   * em vez de subnúmero (43.1). Perguntas seguintes somam +1.
+   * Mapa de numeração sequencial DINÂMICO.
+   * Só conta perguntas VISÍVEIS. Perguntas ocultas não consomem número.
+   * linkedFields e rows de matriz recebem subnúmero do pai.
    */
   const questionNumberMap = useMemo(() => {
-    const map = new Map<string, number>();
-    let seq = 1;
-    for (const section of schema.sections) {
+    const map = new Map<string, string>();
+    let seq = 0;
+    for (const section of visibleSections) {
       for (const q of section.questions) {
-        map.set(q.id, seq++);
+        seq++;
+        map.set(q.id, String(seq));
+        let subIndex = 0;
         if (q.linkedField) {
-          map.set(q.linkedField.id, seq++);
+          subIndex++;
+          map.set(q.linkedField.id, `${seq}.${subIndex}`);
         }
         if (q.type === 'matrix' && q.matrixRows) {
           for (const row of q.matrixRows) {
-            map.set(row.id, seq++);
+            subIndex++;
+            map.set(row.id, `${seq}.${subIndex}`);
           }
         }
       }
     }
     return map;
-  }, [schema.sections]);
+  }, [visibleSections]);
 
   /** Navega para a próxima seção */
   const goNext = useCallback(async () => {
@@ -568,7 +572,6 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
                   className="animate-fade-in rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
                   <div className="mb-3">
                     <label className="flex items-center gap-2 text-sm font-semibold text-slate-800">
-                      {isMatrix && <LayoutGrid size={14} className="text-blue-600" />}
                       <span className="text-blue-700">{questionNumber}.</span>
                       {question.label}
                       {question.required && <span className="text-red-500">*</span>}
