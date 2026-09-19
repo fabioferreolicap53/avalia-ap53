@@ -15,7 +15,7 @@
 
 import { useForm, type FieldValues } from 'react-hook-form';
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, AlertCircle, Download, Info, Trash2 } from 'lucide-react';
+import { ChevronLeft, ChevronRight, AlertCircle, Download, Info, Trash2, RotateCcw } from 'lucide-react';
 import type { FormSchema, FormQuestion, FormSection, FormData } from '../types/form';
 
 /* ── Props ───────────────────────────────────────────────────── */
@@ -626,11 +626,26 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
                       ? 'border-slate-100 opacity-40 pointer-events-none select-none'
                       : 'border-slate-200 hover:shadow-md'}`}>
                   <div className="mb-3">
-                    <label className="flex items-center gap-2 text-sm font-semibold text-slate-800">
-                      <span className="text-blue-700">{questionNumber}.</span>
-                      {question.label}
-                      {question.required && !isBlocked && <span className="text-red-500">*</span>}
-                    </label>
+                    <div className="flex items-start justify-between gap-2">
+                      <label className="flex items-center gap-2 text-sm font-semibold text-slate-800">
+                        <span className="text-blue-700">{questionNumber}.</span>
+                        {question.label}
+                        {question.required && !isBlocked && <span className="text-red-500">*</span>}
+                      </label>
+                      {!isBlocked && (watchedValues[question.id] !== undefined && watchedValues[question.id] !== '') && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (window.confirm('Limpar resposta desta pergunta?')) {
+                              resetField(question.id, { defaultValue: undefined });
+                            }
+                          }}
+                          className="shrink-0 rounded-md p-1 text-slate-300 transition-colors hover:text-slate-500 hover:bg-slate-100"
+                          title="Limpar resposta">
+                          <RotateCcw size={13} />
+                        </button>
+                      )}
+                    </div>
                     {question.description && (
                       <p className="mt-1 text-xs text-slate-500">{question.description}</p>
                     )}
