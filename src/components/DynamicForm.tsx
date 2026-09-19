@@ -313,7 +313,7 @@ interface FormBodyProps extends DynamicFormProps {
 }
 
 function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: FormBodyProps) {
-  const { register, handleSubmit, watch, resetField, trigger, reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, watch, setValue, trigger, reset, formState: { errors } } = useForm();
   const watchedValues = watch();
 
   // ── Paginação ─────────────────────────────────────────────
@@ -392,12 +392,12 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
     if (prevVisibleIds.size > 0) {
       for (const id of prevVisibleIds) {
         if (!currentVisibleIds.has(id)) {
-          try { resetField(id, { defaultValue: undefined }); } catch { /* ok */ }
+          try { setValue(id, ''); } catch { /* ok */ }
         }
       }
     }
     prevVisibleIdsRef.current = currentVisibleIds;
-  }, [visibleSections, watchedValues, resetField]);
+  }, [visibleSections, watchedValues, setValue]);
 
   // Limpa campos quando desbloqueados (transição blocked → unblocked)
   useEffect(() => {
@@ -405,12 +405,12 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
     if (prevBlocked.size > 0) {
       for (const id of prevBlocked) {
         if (!blockedIds.has(id)) {
-          try { resetField(id, { defaultValue: undefined }); } catch { /* ok */ }
+          try { setValue(id, ''); } catch { /* ok */ }
         }
       }
     }
     prevBlockedIdsRef.current = blockedIds;
-  }, [blockedIds, resetField]);
+  }, [blockedIds, setValue]);
 
   // ── Progresso geral ───────────────────────────────────────
   const progress = useMemo(() => {
@@ -637,7 +637,7 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
                           type="button"
                           onClick={() => {
                             if (window.confirm('Limpar resposta desta pergunta?')) {
-                              resetField(question.id, { defaultValue: undefined });
+                              setValue(question.id, '');
                             }
                           }}
                           className="shrink-0 rounded-md p-1 text-slate-300 transition-colors hover:text-slate-500 hover:bg-slate-100"
