@@ -39,6 +39,8 @@ export interface FormQuestion {
   /** Linhas para tipo 'matrix' — cada linha renderiza um grupo de radio buttons Sim/Não */
   matrixRows?: MatrixRow[];
   condition?: QuestionCondition;
+  /** Se true, quando esta pergunta estiver visível e NÃO respondida, bloqueia todas as perguntas seguintes */
+  blocksFollowing?: boolean;
   /** Quantidade máxima da escala (tipo 'scale'). Padrão: 5 */
   scaleMax?: number;
   /**

@@ -144,6 +144,7 @@ export const formSchema: FormSchema = {
             dependsOn: 'q10',
             value: 'Sim',
           },
+          blocksFollowing: true,
           matrixRows: [
             { id: 'q10_1_perfil_demografico', label: 'Perfil demográfico' },
             { id: 'q10_1_perfil_epidemiologico', label: 'Perfil epidemiológico' },
@@ -169,6 +170,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva a frequência utilizada...',
           required: true,
           condition: { dependsOn: 'q11', value: 'Outra' },
+          blocksFollowing: true,
         },
         // Pergunta 12
         {
@@ -331,6 +333,7 @@ export const formSchema: FormSchema = {
             value: 'Nunca',
             operator: 'not_equals',
           },
+          blocksFollowing: true,
         },
         // Pergunta 29
         {
@@ -351,6 +354,7 @@ export const formSchema: FormSchema = {
             dependsOn: 'q29',
             value: ['Sim', 'Às vezes'],
           },
+          blocksFollowing: true,
         },
         // Pergunta 30
         {
@@ -390,6 +394,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva como é realizada a busca ativa de usuários...',
           required: true,
           condition: { dependsOn: 'q32', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 33
         {
@@ -447,6 +452,7 @@ export const formSchema: FormSchema = {
             dependsOn: 'q36',
             value: 'Sim',
           },
+          blocksFollowing: true,
         },
         // Pergunta 37
         {
@@ -467,6 +473,7 @@ export const formSchema: FormSchema = {
             dependsOn: 'q37',
             value: 'Sim',
           },
+          blocksFollowing: true,
         },
         // Pergunta 38
         {
@@ -487,6 +494,7 @@ export const formSchema: FormSchema = {
             dependsOn: 'q38',
             value: 'Sim',
           },
+          blocksFollowing: true,
         },
         // Pergunta 39
         {
@@ -557,6 +565,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o protocolo institucional utilizado...',
           required: true,
           condition: { dependsOn: 'q43', value: ['Sim', 'Não', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 44
         {
@@ -574,6 +583,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o sistema utilizado e o processo de registro...',
           required: true,
           condition: { dependsOn: 'q44', value: ['Sim', 'Não', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 45
         {
@@ -615,6 +625,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o plano de cuidado diferenciado...',
           required: true,
           condition: { dependsOn: 'q48', value: 'Sim' },
+          blocksFollowing: true,
         },
         // Pergunta 49
         {
@@ -632,6 +643,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o tipo de monitoramento realizado...',
           required: true,
           condition: { dependsOn: 'q49', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 50
         {
@@ -649,6 +661,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva a frequência utilizada...',
           required: true,
           condition: { dependsOn: 'q50', value: ['Semestralmente', 'Anualmente', 'Conforme necessidade clínica', 'Não há revisão periódica', 'Outra'] },
+          blocksFollowing: true,
         },
         // Pergunta 51
         {
@@ -687,6 +700,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva como é feito o acompanhamento dos usuários encaminhados...',
           required: true,
           condition: { dependsOn: 'q52', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 53
         {
@@ -704,6 +718,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o fluxo de referência e contrarreferência...',
           required: true,
           condition: { dependsOn: 'q53', value: 'Sim' },
+          blocksFollowing: true,
         },
         // Pergunta 54
         {
@@ -753,6 +768,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva os profissionais e o processo de monitoramento...',
           required: true,
           condition: { dependsOn: 'q58', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
       ],
     },
@@ -799,6 +815,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as ações de busca ativa realizadas...',
           required: true,
           condition: { dependsOn: 'q61', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // ── Pergunta 62 (BLOCO 5) ──
         {
@@ -816,6 +833,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as metas estabelecidas para os grupos prioritários...',
           required: true,
           condition: { dependsOn: 'q62', value: 'Sim' },
+          blocksFollowing: true,
         },
         // ── Pergunta 63 (BLOCO 7) ──
         {
@@ -833,6 +851,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Ex: Taxa de pré-natal, cobertura vacinal, hipertensão controlada...',
           required: true,
           condition: { dependsOn: 'q63', value: 'Sim' },
+          blocksFollowing: true,
         },
         // ── Pergunta 64 (BLOCO 9) ──
         {
@@ -903,6 +922,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o acompanhamento diferenciado...',
           required: true,
           condition: { dependsOn: 'q68', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 69
         {
@@ -920,6 +940,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as ações de autocuidado apoiado...',
           required: true,
           condition: { dependsOn: 'q69', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 70
         {
@@ -937,6 +958,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o processo de monitoramento sistemático...',
           required: true,
           condition: { dependsOn: 'q70', value: 'Sim' },
+          blocksFollowing: true,
         },
         // Pergunta 71 — sempre visível
         {
@@ -1000,6 +1022,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Informe o nome da maternidade de referência...',
           required: true,
           condition: { dependsOn: 'q73', value: 'Outra' },
+          blocksFollowing: true,
         },
         // Pergunta 74
         {
@@ -1089,6 +1112,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o processo de estratificação de risco...',
           required: true,
           condition: { dependsOn: 'q83', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 84
         {
@@ -1154,6 +1178,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva como é realizada a busca ativa de crianças faltosas...',
           required: true,
           condition: { dependsOn: 'q90', value: 'Nunca', operator: 'not_equals' },
+          blocksFollowing: true,
         },
         // Pergunta 91
         {
@@ -1179,6 +1204,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as capacitações recebidas...',
           required: true,
           condition: { dependsOn: 'q92', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 93
         {
@@ -1226,6 +1252,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as metas assistenciais estabelecidas pelo nível central...',
           required: true,
           condition: { dependsOn: 'q95', value: ['Sim', 'Não', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 96
         {
@@ -1243,6 +1270,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva como ocorre a pactuação das metas com a equipe local...',
           required: true,
           condition: { dependsOn: 'q96', value: ['Sim', 'Não', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 97
         {
@@ -1268,6 +1296,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o processo de devolutiva...',
           required: true,
           condition: { dependsOn: 'q98', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 99
         {
@@ -1285,6 +1314,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as reuniões periódicas realizadas...',
           required: true,
           condition: { dependsOn: 'q99', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 100
         {
@@ -1310,6 +1340,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva o tipo de apoio institucional recebido...',
           required: true,
           condition: { dependsOn: 'q101', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 102 — Apoio do Nível Central e Indicadores
         {
@@ -1327,6 +1358,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva como os resultados dos indicadores são utilizados...',
           required: true,
           condition: { dependsOn: 'q102', value: ['Sim', 'Às vezes'] },
+          blocksFollowing: true,
         },
         // Pergunta 103
         {
@@ -1392,6 +1424,7 @@ export const formSchema: FormSchema = {
           placeholder: 'Descreva as capacitações e ações de educação permanente...',
           required: true,
           condition: { dependsOn: 'q109', value: 'Sim' },
+          blocksFollowing: true,
         },
         // Pergunta 110
         {
