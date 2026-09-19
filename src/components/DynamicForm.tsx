@@ -351,19 +351,21 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
     }
   }, [watchedValues, currentStep]);
 
-  /** Seções filtradas (mantém apenas perguntas visíveis) */
-  const visibleSections = useMemo(() => {
-    return schema.sections.map((section) => ({
-      ...section,
-      questions: section.questions.filter((q) => isQuestionVisible(q, watchedValues)),
-    }));
-  }, [schema.sections, watchedValues]);
-
   /** Perguntas bloqueadas (estilo Microsoft Forms) */
   const blockedIds = useMemo(
     () => getBlockedIds(schema.sections, watchedValues),
     [schema.sections, watchedValues]
   );
+
+  /** Seções filtradas (mantém apenas perguntas visíveis e não bloqueadas) */
+  const visibleSections = useMemo(() => {
+    return schema.sections.map((section) => ({
+      ...section,
+      questions: section.questions.filter((q) =>
+        isQuestionVisible(q, watchedValues) && !blockedIds.has(q.id)
+      ),
+    }));
+  }, [schema.sections, watchedValues, blockedIds]);
 
   const totalSteps = visibleSections.length;
   const currentSection = visibleSections[currentStep];
@@ -444,10 +446,8 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
   useMemo(() => onProgress?.(progress.filled, progress.total), [progress.filled, progress.total, onProgress]);
 
   const currentVisibleIds = useMemo(
-    () => (currentSection
-      ? collectVisibleIds(currentSection.questions, watchedValues).filter((id) => !blockedIds.has(id))
-      : []),
-    [currentSection, watchedValues, blockedIds]
+    () => (currentSection ? collectVisibleIds(currentSection.questions, watchedValues) : []),
+    [currentSection, watchedValues]
   );
 
   /**
@@ -618,21 +618,17 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
               const isMatrix = question.type === 'matrix';
               const linkedError = question.linkedField ? errors[question.linkedField.id] : undefined;
               const questionNumber = questionNumberMap.get(question.id) ?? '?';
-              const isBlocked = blockedIds.has(question.id);
               return (
                 <div key={question.id}
-                  className={`animate-fade-in rounded-xl border bg-white p-6 shadow-sm transition-all duration-300
-                    ${isBlocked
-                      ? 'border-slate-100 opacity-40 pointer-events-none select-none'
-                      : 'border-slate-200 hover:shadow-md'}`}>
+                  className="animate-fade-in rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
                   <div className="mb-3">
                     <div className="flex items-start justify-between gap-2">
                       <label className="flex items-center gap-2 text-sm font-semibold text-slate-800">
                         <span className="text-blue-700">{questionNumber}.</span>
                         {question.label}
-                        {question.required && !isBlocked && <span className="text-red-500">*</span>}
+                        {question.required && <span className="text-red-500">*</span>}
                       </label>
-                      {!isBlocked && (watchedValues[question.id] !== undefined && watchedValues[question.id] !== '') && (
+                      {(watchedValues[question.id] !== undefined && watchedValues[question.id] !== '') && (
                         <button
                           type="button"
                           onClick={() => {
@@ -651,14 +647,8 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
                     )}
                   </div>
 
-                  {isBlocked ? (
-                    <div className="rounded-lg border border-dashed border-slate-200 bg-slate-50/50 px-4 py-3 text-xs text-slate-400 italic">
-                      Responda a pergunta anterior para desbloquear este campo
-                    </div>
-                  ) : (
-                    <>
-                      <QuestionField question={question} register={register} errors={errors} />
-                      {!isMatrix && error && <ErrorMessage />}
+                  <QuestionField question={question} register={register} errors={errors} />
+                  {!isMatrix && error && <ErrorMessage />}
 
                   {question.linkedField && (
                     <div className="mt-4 pt-4 border-t border-slate-100">
@@ -674,8 +664,6 @@ function FormBody({ schema, onGeneratePdf, onProgress, onStepChange, onClear }: 
                         {...register(question.linkedField.id, { required: question.linkedField.required })} />
                       {linkedError && <ErrorMessage />}
                     </div>
-                  )}
-                  </>
                   )}
                 </div>
               );
